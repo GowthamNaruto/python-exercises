@@ -1,3 +1,5 @@
+# pip install captcha
+# pip install pillow
 from captcha.image import ImageCaptcha
 from PIL import Image
 import os
