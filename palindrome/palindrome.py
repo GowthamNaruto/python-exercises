@@ -1,5 +1,5 @@
 def plinndrome(sentence):
-    for i in (",.'?/z><}{{}}'"):
+    for i in (",.'?/><}{{}}'"):
         sentence = sentence.replace(i, "")
     palindrome = []
     words = sentence.split(' ')
@@ -11,4 +11,4 @@ def plinndrome(sentence):
 
 
 sentence = input("Enter a sentence: ")
-print(plinndrome(sentence))
+print(f"Palindrome wrods: {plinndrome(sentence)}")
